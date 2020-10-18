@@ -1,4 +1,5 @@
 let secondColumn = 1;
-let maxOfSecondColumn =  Math.max.apply(null, [[1, 2], [3, 4]].map(singleArray => singleArray[secondColumn]));
+let twoDimensionalArray = [[1, 2], [3, 4]];
+let maxOfSecondColumn =  Math.max(...twoDimensionalArray.map(row => row[secondColumn]));
 
 console.log(maxOfSecondColumn); // 4
