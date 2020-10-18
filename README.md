@@ -1,2 +1,2 @@
-# Melfs-Acid-Arrows
+# Melfs-Acid-Arrow
 Bag of Javascript Tricks
