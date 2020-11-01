@@ -23,6 +23,7 @@ console.log(`zipped: ${zipped}`); // 14253 ;
     zipMalfunction will be an unwanted result because the
     array length in raw is equal to the amount of arguments passed from the second argument to the end
 */
+
 const zipMalfunction = String.raw({raw: [1, 2, 3]}, 4, 5, 6);
 console.log(`zipMalfunction: ${zipMalfunction}`); // 1, 4, 2, 5, 3 ; 6 is ignored
 
