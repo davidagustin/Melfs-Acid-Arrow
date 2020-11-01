@@ -37,7 +37,8 @@ const substitutionArguments = [4, 5, 6, 7, 8]; // raw <= substitutions
 let rawArray = [1, 2, 3];
 
 /*
-    The comma in padEnd will be used to split and substitutionArguments.length is added by 1 because raw must have more elements than its substitution
+    The comma in padEnd will be used to split and substitutionArguments.length
+    is added by 1 because raw must have more elements than its substitution
  */
 
 if (rawArray <= substitutionArguments) {
@@ -51,4 +52,4 @@ zipped = zipped.split(''); // turn string into an array
 console.log(`zipped: ${zipped}`); // ['1', '4', '2', '5', '3', '6', '7', '8']
 
 zipped = zipped.map((stringElement) => Number(stringElement)); // change string number to datatype number
-console.log(`zipped: ${zipped}`); // [1, 4, 2, 5, 3, 6, 7, 8]
+console.log(`zipped: ${zipped[0]}`); // [1, 4, 2, 5, 3, 6, 7, 8]
