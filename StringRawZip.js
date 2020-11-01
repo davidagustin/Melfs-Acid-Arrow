@@ -53,4 +53,4 @@ zipped = zipped.split(''); // turn string into an array
 console.log(`zipped: ${zipped}`); // ['1', '4', '2', '5', '3', '6', '7', '8']
 
 zipped = zipped.map((stringElement) => Number(stringElement)); // change string number to datatype number
-console.log(`zipped: ${zipped[0]}`); // [1, 4, 2, 5, 3, 6, 7, 8]
+console.log(`zipped: ${zipped}`); // [1, 4, 2, 5, 3, 6, 7, 8]
