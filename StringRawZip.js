@@ -10,8 +10,8 @@ console.log(`zipped: ${zipped}`); // 't0e1s2t'
 
 /*
     Value in raw object must be an array and that array length
-    must be longer than the amount of arguments passed from the
-    in String.raw from the second position to its end. The data type
+    must be longer than the amount of arguments passed
+    in String.raw ; The data type
     returned from String.raw is of course a string.
  */
 
